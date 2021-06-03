@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family-open-sans;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+
+  background-color: $white;
+  color: #212529;
+
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+
+  &.hide-scroller {
+    overflow: hidden;
+    padding-right: 17px;
+  }
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+svg {
+  display: inline-block;
+  max-width: 100%;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+
+  max-width: 100%;
+}
+
+main {
+  display: block;
+}

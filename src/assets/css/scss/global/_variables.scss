@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+// colors
+$blue: #007bff;
+$indigo: #6610f2;
+$purple: #5b43d6;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffcb05;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+$white: #ffffff;
+$gray: #6c757d;
+$gray-dark: #343a40;
+
+// theme colors
+$primary: #5b43d6;
+$secondary: #ffcb05;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffcb05;
+$danger: #dc3545;
+$light: #ffffff;
+$dark: #333743;
+
+// breakpoints
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// font family
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  'Liberation Mono', 'Courier New', monospace;
+
+$font-family-open-sans: 'Open Sans', sans-serif;

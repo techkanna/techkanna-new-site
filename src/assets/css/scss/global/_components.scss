@@ -1,0 +1,140 @@
+// modal commen styles
+.custom-dialog {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.04s ease-in-out;
+}
+.dialog__window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  transform: translateX(100%);
+  transition: transform 0.2s ease-in-out;
+  padding: 1rem;
+  z-index: 11;
+}
+.dialog__mask {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: 0;
+}
+.custom-dialog.opened {
+  opacity: 1;
+  pointer-events: all;
+}
+.custom-dialog.opened .dialog__mask {
+  opacity: 1;
+}
+.custom-dialog.opened .dialog__window {
+  transform: translateX(0);
+}
+
+// hover images
+.hover-img-wrapper {
+  position: relative;
+
+  img {
+    vertical-align: text-top;
+    &:first-child {
+      opacity: 1;
+    }
+    &:last-child {
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+    }
+  }
+
+  &:hover {
+    img {
+      &:first-child {
+        opacity: 0;
+      }
+      &:last-child {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+// click img wrapper
+.click-img-wrapper {
+  position: relative;
+
+  img {
+    vertical-align: text-top;
+    &:first-child {
+      opacity: 1;
+    }
+    &:last-child {
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+    }
+  }
+
+  &.clicked {
+    img {
+      &:first-child {
+        opacity: 0;
+      }
+      &:last-child {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.custom-dropdown {
+  position: relative;
+
+  .custom-dropdown__menu {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 3px 1px rgba(53, 53, 53, 0.26);
+
+    transition: transform 0.15s ease-out, opacity 0.02s ease-out;
+
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none;
+
+    &.show {
+      transform: scaleY(1);
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    &::after,
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0.2rem;
+      width: 0;
+      height: 0;
+      transform: translateY(-100%);
+      border: 0.4rem solid #fff;
+      border-color: transparent transparent #fff transparent;
+    }
+
+    &::before {
+      transform: translateY(-105%);
+      border-color: transparent transparent #999 transparent;
+    }
+  }
+}

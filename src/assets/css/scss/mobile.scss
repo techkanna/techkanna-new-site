@@ -1,0 +1,14 @@
+// X-Large devices (large desktops, less than 1400px)
+@import 'mobile/large-desktop';
+
+// Large devices (desktops, less than 1200px)
+@import 'mobile/desktop';
+
+// Medium devices (tablets, less than 992px)
+@import 'mobile/tablet';
+
+// Small devices (landscape phones, less than 768px)
+@import 'mobile/landscape-mobile';
+
+// X-Small devices (portrait phones, less than 576px)
+@import 'mobile/small-mobile';
