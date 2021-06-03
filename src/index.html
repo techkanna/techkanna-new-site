@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Techkanna</title>
+    <title>Techkanna | App Developer</title>
 
     <!-- owl carousel -->
-    <!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" /> -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
 
     <!-- custom styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -22,7 +22,298 @@
     />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <header class="page-header">
+      <div class="container">
+        <div class="logo__wrap">
+          <a href="#" class="logo__link">
+            <svg
+              width="54"
+              height="54"
+              viewBox="0 0 54 54"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="26.5805" cy="26.5805" r="26.5805" fill="white" />
+              <path
+                d="M17.0238 23.4106L12.0327 27.5223L16.921 31.1885L15.6989 32.6733L9.086 29.3611L7.40707 26.6086L8.3893 26.0261L9.086 27.1682L9.79412 26.7913L9.086 25.6035L9.90833 25.1009L10.6621 26.323L11.3588 25.7976L10.6964 24.6555L11.5302 24.1644L12.0898 25.158L12.8208 24.7126L12.2725 23.7304L15.7332 21.606L17.0238 23.4106ZM34.2814 16.5578L34.0301 18.3738C33.5276 18.2824 33.0288 18.2139 32.5339 18.1682C32.039 18.1225 31.5555 18.0997 31.0834 18.0997C30.4819 18.0997 29.8727 18.1378 29.256 18.2139C28.6469 18.29 28.0301 18.4005 27.4057 18.5451L28.4908 35.4486L23.3283 34.7748L24.6075 18.6822L23.8309 18.6936C23.0009 18.7088 22.27 18.6708 21.638 18.5794C21.0136 18.488 20.4959 18.3395 20.0847 18.134C19.5136 17.8446 19.0872 17.4449 18.8055 16.9347C18.5314 16.4246 18.3943 15.7926 18.3943 15.0388V14.7533L19.1596 14.4906C19.19 15.3434 19.5098 15.9829 20.119 16.4093C20.7357 16.8281 21.6342 17.0375 22.8144 17.0375C23.8118 17.0375 25.2928 16.889 27.2573 16.5921C29.2293 16.2951 30.7141 16.1466 31.7116 16.1466C32.237 16.1466 32.7166 16.1847 33.1507 16.2609C33.5847 16.3294 33.9616 16.4284 34.2814 16.5578ZM26.7433 23.7304C26.7433 23.4563 26.6748 23.2507 26.5377 23.1136C26.4083 22.9766 26.2065 22.9081 25.9324 22.9081C25.6583 22.9081 25.4489 22.9766 25.3042 23.1136C25.1672 23.2507 25.0986 23.4563 25.0986 23.7304C25.0986 24.0121 25.1672 24.2215 25.3042 24.3586C25.4489 24.488 25.6583 24.5527 25.9324 24.5527C26.2065 24.5527 26.4083 24.488 26.5377 24.3586C26.6748 24.2215 26.7433 24.0121 26.7433 23.7304ZM26.9375 27.1339C26.9375 26.8522 26.8347 26.6086 26.6291 26.403C26.4311 26.1898 26.1875 26.0832 25.8981 26.0832C25.6088 26.0832 25.3613 26.1898 25.1558 26.403C24.9502 26.6086 24.8474 26.8522 24.8474 27.1339C24.8474 27.4309 24.9502 27.6822 25.1558 27.8877C25.3613 28.0933 25.6088 28.1961 25.8981 28.1961C26.1875 28.1961 26.4311 28.0933 26.6291 27.8877C26.8347 27.6822 26.9375 27.4309 26.9375 27.1339ZM26.6862 30.7202C26.6862 30.4537 26.6177 30.2519 26.4806 30.1149C26.3512 29.9778 26.1494 29.9093 25.8753 29.9093C25.6012 29.9093 25.3918 29.9778 25.2471 30.1149C25.1101 30.2519 25.0415 30.4537 25.0415 30.7202C25.0415 30.9943 25.1101 31.1999 25.2471 31.337C25.3918 31.4664 25.6012 31.5311 25.8753 31.5311C26.1494 31.5311 26.3512 31.4664 26.4806 31.337C26.6177 31.1999 26.6862 30.9943 26.6862 30.7202ZM42.6989 28.5502L36.0517 32.6733L34.7725 30.8687L39.7522 26.7684L34.8524 23.0908L36.0745 21.606L42.6989 24.9296V28.5502ZM41.7737 25.5121C41.7737 25.2685 41.6824 25.0553 41.4996 24.8725C41.3169 24.6898 41.1037 24.5984 40.86 24.5984C40.6164 24.5984 40.4032 24.6898 40.2204 24.8725C40.0453 25.0553 39.9577 25.2685 39.9577 25.5121C39.9577 25.7481 40.0453 25.9575 40.2204 26.1403C40.4032 26.323 40.6164 26.4144 40.86 26.4144C41.1037 26.4144 41.3169 26.323 41.4996 26.1403C41.6824 25.9575 41.7737 25.7481 41.7737 25.5121ZM41.5567 28.0476C41.5567 27.804 41.4692 27.5908 41.294 27.408C41.1189 27.2253 40.9095 27.1339 40.6659 27.1339C40.4146 27.1339 40.1976 27.2253 40.0149 27.408C39.8397 27.5908 39.7522 27.804 39.7522 28.0476C39.7522 28.2913 39.8397 28.5045 40.0149 28.6872C40.1976 28.8624 40.4146 28.9499 40.6659 28.9499C40.9095 28.9499 41.1189 28.8624 41.294 28.6872C41.4692 28.5045 41.5567 28.2913 41.5567 28.0476Z"
+                fill="#561DB4"
+              />
+            </svg>
+            Techkanna
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio">portfolio</a>
+            </li>
+            <li>
+              <a href="#pricing">pricing</a>
+            </li>
+            <li>
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="main-banner">
+        <h1>I'm a web & mobile app developer</h1>
+        <h2>My name is Senthil Kannan</h2>
+
+        <p>
+          Specializing in front end development. If you're a business seeking a
+          web presence or are looking to hire, contact me <a href="#">here</a>
+        </p>
+
+        <button class="button button__fill">Get Started</button>
+      </section>
+
+      <section id="services">
+        <h2 class="section__title">Services</h2>
+        <div class="owl-carousel owl-theme services__slider">
+          <div class="service">
+            <img
+              src="assets/images/design-development.png"
+              alt="design and development"
+            />
+            <div class="service__title">Design + Development</div>
+
+            <p>
+              Clean, modern designs - optimized for performance, search engines,
+              and converting users to customers.
+            </p>
+          </div>
+
+          <div class="service">
+            <img src="assets/images/ecommerce.png" alt="ecommerce" />
+            <div class="service__title">eCommerce</div>
+
+            <p>
+              Integration of eCommerce platforms, payment gateways, custom
+              product templates, and more.
+            </p>
+          </div>
+
+          <div class="service">
+            <img src="assets/images/analytics.png" alt="analytics" />
+            <div class="service__title">Analytics</div>
+
+            <p>
+              Get insights into who is browsing your site so that you can make
+              smarter business decisions.
+            </p>
+          </div>
+
+          <div class="service">
+            <img
+              src="assets/images/mobile friendly.png"
+              alt="mobile friendly"
+            />
+            <div class="service__title">Mobile-friendly</div>
+
+            <p>
+              A responsive design makes your website accessible to all users,
+              regardless of their device.
+            </p>
+          </div>
+
+          <div class="service">
+            <img src="assets/images/website audit.png" alt="website audit" />
+            <div class="service__title">Website Audits</div>
+
+            <p>
+              Looking to improve your page performance, SEO, or user experience?
+              Request a free site audit.
+            </p>
+          </div>
+
+          <div class="service">
+            <img
+              src="assets/images/Content Management.png"
+              alt="Content Management"
+            />
+            <div class="service__title">Content Management</div>
+
+            <p>
+              Custom WordPress theme and plugin development. Easily update
+              content without knowing how to code.
+            </p>
+          </div>
+        </div>
+
+        <button class="button button__outline">Learn more</button>
+      </section>
+
+      <section id="pricing">
+        <h2 class="section__title">Pricing per build</h2>
+        <div class="cards">
+          <div class="card basic">
+            <p class="card__title">Basic</p>
+            <ul>
+              <li><p>Website Audit</p></li>
+              <li><p>Design</p></li>
+              <li><p>Development</p></li>
+            </ul>
+
+            <button class="button button__outline">Request quote</button>
+          </div>
+          <div class="card standard">
+            <p class="card__title">Standard</p>
+            <ul>
+              <li><p>Website Audit</p></li>
+              <li><p>Design</p></li>
+              <li><p>Development</p></li>
+              <li><p>Backups</p></li>
+              <li><p>Analytics</p></li>
+              <li><p>Live Chat</p></li>
+              <li><p>Search Engine Optimization</p></li>
+              <li>
+                <p
+                  title="Includes the integration of the Strapi content management system. Easily update your content without knowing how to code."
+                >
+                  Content Management
+                </p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  data-prefix="fas"
+                  data-icon="info-circle"
+                  class="svg-inline--fa fa-info-circle fa-w-16"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"
+                  />
+                </svg>
+              </li>
+            </ul>
+
+            <button class="button button__fill">Request quote</button>
+          </div>
+          <div class="card premium">
+            <p class="card__title">Premium</p>
+            <ul>
+              <li><p>Website Audit</p></li>
+              <li><p>Design</p></li>
+              <li><p>Development</p></li>
+              <li><p>Backups</p></li>
+              <li><p>Analytics</p></li>
+              <li><p>Live Chat</p></li>
+              <li><p>Search Engine Optimization</p></li>
+              <li>
+                <p
+                  title="Includes the integration of the Strapi content management system. Easily update your content without knowing how to code."
+                >
+                  Content Management
+                </p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  data-prefix="fas"
+                  data-icon="info-circle"
+                  class="svg-inline--fa fa-info-circle fa-w-16"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"
+                  />
+                </svg>
+              </li>
+              <li><p>Maintenance Agreement</p></li>
+              <li><p>eCommerce</p></li>
+              <li>
+                <p
+                  title="Includes configuration of email hosting service such as G Suite (Gmail) and Outlook."
+                >
+                  Email Setup
+                </p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  data-prefix="fas"
+                  data-icon="info-circle"
+                  class="svg-inline--fa fa-info-circle fa-w-16"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"
+                  />
+                </svg>
+              </li>
+              <li>
+                <p title="Hosting plan will be calculating based on traffic.">
+                  Hosting
+                </p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  data-prefix="fas"
+                  data-icon="info-circle"
+                  class="svg-inline--fa fa-info-circle fa-w-16"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"
+                  />
+                </svg>
+              </li>
+            </ul>
+
+            <button class="button button__fill">Request quote</button>
+          </div>
+        </div>
+
+        <p class="pricing-note">Prices listed in INR.</p>
+      </section>
+
+      <section id="contact">
+        <h2 class="section__title">Get in touch</h2>
+
+        <form>
+          <div class="flx">
+            <div class="email-wrap">
+              <div class="custom-field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+              </div>
+            </div>
+            <div class="plan-wrap">
+              <div class="custom-field">
+                <label for="plan">Plan (optional)</label>
+                <select name="plan" id="plan">
+                  <option value="basic">Basic</option>
+                  <option value="standard">Standard</option>
+                  <option value="premium">Premium</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="custom-field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+
+          <button class="button button__fill">Send</button>
+        </form>
+
+        <ul class="social-links">
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
+      </section>
+    </main>
 
     <!-- jquary link -->
     <!-- <script
