@@ -1,0 +1,44 @@
+.page-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $primary;
+  color: $white;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    &__link {
+      display: flex;
+      align-items: center;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+
+    &__img {
+      width: 1.5em;
+      margin-right: 0.5em;
+    }
+  }
+
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+    }
+
+    li {
+      a {
+        padding: 2rem;
+        font-weight: 600;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
