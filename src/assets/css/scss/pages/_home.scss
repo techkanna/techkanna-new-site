@@ -52,6 +52,7 @@
   padding-top: 9rem;
   padding-bottom: 7rem;
   position: relative;
+  overflow: hidden;
 
   &::before,
   &::after {
@@ -154,6 +155,21 @@
 
       z-index: 1;
       background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNDQwIDMyMCc+PHBhdGggZmlsbD0nI2ZmZmZmZicgZmlsbC1vcGFjaXR5PScwLjc1JyBkPSdNMCwzMkw2MCw1My4zQzEyMCw3NSwyNDAsMTE3LDM2MCwxNDRDNDgwLDE3MSw2MDAsMTgxLDcyMCwxNjBDODQwLDEzOSw5NjAsODUsMTA4MCw4MEMxMjAwLDc1LDEzMjAsMTE3LDEzODAsMTM4LjdMMTQ0MCwxNjBMMTQ0MCwzMjBMMTM4MCwzMjBDMTMyMCwzMjAsMTIwMCwzMjAsMTA4MCwzMjBDOTYwLDMyMCw4NDAsMzIwLDcyMCwzMjBDNjAwLDMyMCw0ODAsMzIwLDM2MCwzMjBDMjQwLDMyMCwxMjAsMzIwLDYwLDMyMEwwLDMyMFonPjwvcGF0aD48L3N2Zz4=);
+    }
+  }
+}
+
+// .section{
+//   &__services{
+
+//   }
+// }
+
+.section {
+  &__pricing {
+    svg {
+      width: 1rem;
+      height: 1rem;
     }
   }
 }
