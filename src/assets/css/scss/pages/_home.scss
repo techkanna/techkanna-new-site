@@ -159,11 +159,31 @@
   }
 }
 
-// .section{
-//   &__services{
+section{
+  padding: 3rem 0;
+}
 
-//   }
-// }
+.section{
+  &__title{
+    text-align: center;
+    color: $dark;
+    margin-bottom: 2rem;
+  }
+  &__services{
+    .service{
+      text-align: center;
+      img{
+        max-width: 3.7rem;
+        margin: 0 auto;
+      }
+      &__title{
+        color: $indigo;
+        margin: 1rem 0;
+      }
+    }
+  }
+
+}
 
 .section {
   &__pricing {
